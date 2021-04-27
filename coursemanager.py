@@ -2,6 +2,7 @@ import gi, os
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gio, Gdk, GdkPixbuf, GLib
 from puzzle1_v2 import RfidReader
+import lcd
 import threading
 import requests
 import json
