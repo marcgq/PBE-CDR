@@ -30,7 +30,7 @@ class VentanaLogin(Gtk.Box):
                 self.__parent_window.query.label2.set_markup("Welcome "+ self.__parent_window.name)
                 self.hide()
                 #lcd.clearpantalla()
-                #lcd.main("Welcome " + self.__parent_window.name)
+                #lcd.main("Welcome ", self.__parent_window.name)
                 self.__parent_window.timer=threading.Timer(20, self.__parent_window.query.logout)
                 self.__parent_window.timer.start()
                 self.__parent_window.query.show_all()
