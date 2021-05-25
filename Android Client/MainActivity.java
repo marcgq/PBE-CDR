@@ -119,24 +119,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         protected void onPostExecute(String result) {
-            // this is executed on the main thread after the process is over
-            // update your UI here
-            /*String nom = "";
-            JSONArray json = null;
-            try {
-                json = new JSONArray(result);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            try {
-                JSONObject res = json.getJSONObject(0);
-                nom = res.getString("name");
-
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            name= nom;
-            Log.i("info", name);*/
         }
     }
 
